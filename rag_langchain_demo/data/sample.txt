@@ -1,0 +1,1 @@
+Retrieval Augmented Generation (RAG) combines a large language model with a retrieval system. It allows the model to access external knowledge sources, improving factual accuracy and reducing hallucinations. This demo showcases a simple RAG pipeline using LangChain, FAISS, and a placeholder LLM.

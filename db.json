@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": "user_alex",
+      "username": "alex_designer",
+      "passwordHash": "$2b$10$YzE0I3rfTDsAU3zVxA0Mw.BADZmrZOLV1eNyreE33xO5j6gwmiz4i",
+      "displayName": "Alex Rivera",
+      "bio": "Senior Product Designer at VibeLabs. Obsessed with neon glassmorphism and motion graphics. 🎨✨",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
+      "cover": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&h=300&q=80",
+      "createdAt": "2026-04-20T14:47:12.634Z"
+    },
+    {
+      "id": "user_sarah",
+      "username": "sarah_dev",
+      "passwordHash": "$2b$10$YzE0I3rfTDsAU3zVxA0Mw.BADZmrZOLV1eNyreE33xO5j6gwmiz4i",
+      "displayName": "Sarah Chen",
+      "bio": "Full Stack Engineer & OSS contributor. Building the future of the web, one interactive card at a time. 💻🚀",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
+      "cover": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=800&h=300&q=80",
+      "createdAt": "2026-04-25T14:47:12.635Z"
+    },
+    {
+      "id": "user_marcus",
+      "username": "marcus_fit",
+      "passwordHash": "$2b$10$YzE0I3rfTDsAU3zVxA0Mw.BADZmrZOLV1eNyreE33xO5j6gwmiz4i",
+      "displayName": "Marcus Aurelius",
+      "bio": "Mindfulness Practitioner, Fitness Coach & Philosophy Enthusiast. Sound body, sound mind. 🧘‍♂️💪",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80",
+      "cover": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&h=300&q=80",
+      "createdAt": "2026-04-30T14:47:12.635Z"
+    },
+    {
+      "id": "ax9a69gp0pl28r8vtij8p4",
+      "createdAt": "2026-05-20T15:30:04.694Z",
+      "username": "john",
+      "displayName": "john@123",
+      "passwordHash": "$2b$10$ImnnAJiVGbw2h88YXmNjc.XLG5DJ7cuHoCZ0UT5smckyvOkwH2pRe",
+      "bio": "Welcome to my profile! I am excited to connect on VibeNet. 🪐",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80",
+      "cover": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&h=300&q=80"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_alex_1",
+      "userId": "user_alex",
+      "content": "Just finalized the design specifications for VibeNet! Combining deep space backdrops with highly neon-accented glassmorphic panels. It feels incredibly sleek. What do you think? 🌌🎨🧪",
+      "mediaUrl": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-05-17T14:47:12.635Z"
+    },
+    {
+      "id": "post_sarah_1",
+      "userId": "user_sarah",
+      "content": "Experimenting with React 19 Server Actions and Node.js v24 clustering today. Node is incredibly fast, but maintaining state consistency across instances requires robust DB models. Always plan before coding! 💻⚙️",
+      "mediaUrl": "https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-05-18T14:47:12.635Z"
+    },
+    {
+      "id": "post_marcus_1",
+      "userId": "user_marcus",
+      "content": "Your mind is like water. When it's turbulent, it's difficult to see. When it's calm, everything becomes clear. Starting my morning with 20 minutes of silent meditation and a 5km run. Invest in your peace. 🧘‍♂️🍃🌅",
+      "mediaUrl": "",
+      "createdAt": "2026-05-19T14:47:12.635Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment_1",
+      "postId": "post_alex_1",
+      "userId": "user_sarah",
+      "content": "This glassmorphism layout is absolutely stunning! The backdrop-filter is perfect.",
+      "createdAt": "2026-05-17T19:35:12.635Z"
+    },
+    {
+      "id": "comment_2",
+      "postId": "post_alex_1",
+      "userId": "user_marcus",
+      "content": "Loving the colors here, Alex. The purple gradient is extremely vibrant.",
+      "createdAt": "2026-05-18T02:47:12.635Z"
+    },
+    {
+      "id": "comment_3",
+      "postId": "post_sarah_1",
+      "userId": "user_alex",
+      "content": "Completely agree on state management. Excited to see what you build with it!",
+      "createdAt": "2026-05-18T19:35:12.635Z"
+    },
+    {
+      "id": "oi381c8qohw80gyh4ugrn",
+      "createdAt": "2026-05-20T15:30:41.792Z",
+      "postId": "post_marcus_1",
+      "userId": "ax9a69gp0pl28r8vtij8p4",
+      "content": "amazing"
+    }
+  ],
+  "likes": [
+    {
+      "userId": "user_sarah",
+      "postId": "post_alex_1"
+    },
+    {
+      "userId": "user_marcus",
+      "postId": "post_alex_1"
+    },
+    {
+      "userId": "user_alex",
+      "postId": "post_sarah_1"
+    },
+    {
+      "userId": "user_marcus",
+      "postId": "post_sarah_1"
+    },
+    {
+      "userId": "user_alex",
+      "postId": "post_marcus_1"
+    },
+    {
+      "id": "05nbxyiuouzqvik5gmwx4fh",
+      "createdAt": "2026-05-20T15:30:31.646Z",
+      "userId": "ax9a69gp0pl28r8vtij8p4",
+      "postId": "post_marcus_1"
+    }
+  ],
+  "follows": [
+    {
+      "followerId": "user_alex",
+      "followedId": "user_sarah"
+    },
+    {
+      "followerId": "user_alex",
+      "followedId": "user_marcus"
+    },
+    {
+      "followerId": "user_sarah",
+      "followedId": "user_alex"
+    },
+    {
+      "followerId": "user_sarah",
+      "followedId": "user_marcus"
+    },
+    {
+      "followerId": "user_marcus",
+      "followedId": "user_alex"
+    },
+    {
+      "followerId": "user_marcus",
+      "followedId": "user_sarah"
+    }
+  ]
+}

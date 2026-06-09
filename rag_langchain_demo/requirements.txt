@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+langchain
+faiss-cpu
+sentence-transformers
+torch
+numpy
+jinja2
+# Replace placeholder LLM with GPT-OSS 120B client when ready
